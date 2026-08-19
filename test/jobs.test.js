@@ -1,0 +1,1 @@
+const test=require('node:test');const assert=require('node:assert/strict');const {jobs}=require('../server');test('job queue starts empty and accepts future work items',()=>{assert.deepEqual(jobs,[]);});
